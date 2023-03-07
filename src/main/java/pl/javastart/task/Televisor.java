@@ -4,7 +4,7 @@ public class Televisor {
     private boolean isOn;
 
     public void turnOn() {
-       isOn = true;
+        isOn = true;
     }
 
     public void turnOff() {
@@ -12,7 +12,6 @@ public class Televisor {
     }
 
     public boolean showStatus() {
-        System.out.println("Czy telewizor jest włączony? ");
         return isOn;
     }
 }
